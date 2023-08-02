@@ -1,0 +1,67 @@
+
+
+
+public class StringTokenizerExample {
+
+    public static void main(String[] args) throws IOException {
+
+        StringTokenizer st = new StringTokenizer("1, 2, 3, 4, 5");
+        while (st.hasMoreTokens()) {
+            System.out.println(st.nextToken().trim());
+        }
+
+        
+
+        
+    }
+
+    public static List<String> split(String line, String delimiter) {
+        List<String> result = new ArrayList<>();
+        StringTokenizer st = new StringTokenizer(line, delimiter);
+        while (st.hasMoreTokens()) {
+            result.add(st.nextToken());
+        }
+        return result;
+    }
+
+    public List<Trend> readFile(Path path, String delimiter) throws IOException {
+
+        List<Trend> result = new ArrayList<>();
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path.toString()))) {
+
+            String line;
+            while ((line = br.readLine()) != null) {
+                StringTokenizer st = new StringTokenizer(line, delimiter);
+                while (st.hasMoreTokens()) {
+                    Integer id = Integer.parseInt(st.nextToken().trim());
+                    Double index = Double.parseDouble(st.nextToken().trim());
+                    String desc = st.nextToken().trim();
+                    result.add(new Trend(id, index, desc));
+                }
+            }
+        }
+        return result;
+    }
+
+    class Trend {
+        private int id;
+        private Double index;
+        private String desc;
+
+        public Trend(int id, Double index, String desc) {
+            this.id = id;
+            this.index = index;
+            this.desc = desc;
+        }
+
+        @Override
+        public String toString() {
+            return "Trend{" +
+                    "id=" + id +
+                    ", index=" + index +
+                    ", desc='" + desc + '\'' +
+                    '}';
+        }
+    }
+}

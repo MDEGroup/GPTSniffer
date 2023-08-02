@@ -1,0 +1,1 @@
+import java.util.Scanner;public class SierpinskiTriangle {  public static void main(String[] args) {    Scanner scanner = new Scanner(System.in);    System.out.print("Enter the order of the Sierpinski triangle: ");    int order = scanner.nextInt();    

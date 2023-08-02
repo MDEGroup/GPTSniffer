@@ -1,0 +1,59 @@
+{'loss': 0.6883, 'learning_rate': 1.0000000000000002e-06, 'epoch': 0.26}
+{'loss': 0.6879, 'learning_rate': 2.0000000000000003e-06, 'epoch': 0.53}
+{'loss': 0.6948, 'learning_rate': 3e-06, 'epoch': 0.79}
+{'loss': 0.6855, 'learning_rate': 4.000000000000001e-06, 'epoch': 1.05}
+{'loss': 0.6789, 'learning_rate': 5e-06, 'epoch': 1.32}
+{'loss': 0.6802, 'learning_rate': 6e-06, 'epoch': 1.58}
+{'loss': 0.6656, 'learning_rate': 7.000000000000001e-06, 'epoch': 1.84}
+{'loss': 0.6492, 'learning_rate': 8.000000000000001e-06, 'epoch': 2.11}
+{'loss': 0.6161, 'learning_rate': 9e-06, 'epoch': 2.37}
+{'loss': 0.5649, 'learning_rate': 1e-05, 'epoch': 2.63}
+{'loss': 0.4927, 'learning_rate': 1.1000000000000001e-05, 'epoch': 2.89}
+{'loss': 0.3871, 'learning_rate': 1.2e-05, 'epoch': 3.16}
+{'loss': 0.2821, 'learning_rate': 1.3000000000000001e-05, 'epoch': 3.42}
+{'loss': 0.2671, 'learning_rate': 1.4000000000000001e-05, 'epoch': 3.68}
+{'loss': 0.199, 'learning_rate': 1.5e-05, 'epoch': 3.95}
+{'loss': 0.1792, 'learning_rate': 1.6000000000000003e-05, 'epoch': 4.21}
+{'loss': 0.2015, 'learning_rate': 1.7000000000000003e-05, 'epoch': 4.47}
+{'loss': 0.2343, 'learning_rate': 1.8e-05, 'epoch': 4.74}
+{'loss': 0.1946, 'learning_rate': 1.9e-05, 'epoch': 5.0}
+{'loss': 0.1843, 'learning_rate': 2e-05, 'epoch': 5.26}
+{'loss': 0.1336, 'learning_rate': 2.1e-05, 'epoch': 5.53}
+{'loss': 0.1262, 'learning_rate': 2.2000000000000003e-05, 'epoch': 5.79}
+{'loss': 0.1171, 'learning_rate': 2.3000000000000003e-05, 'epoch': 6.05}
+{'loss': 0.1127, 'learning_rate': 2.4e-05, 'epoch': 6.32}
+{'loss': 0.0761, 'learning_rate': 2.5e-05, 'epoch': 6.58}
+{'loss': 0.1082, 'learning_rate': 2.6000000000000002e-05, 'epoch': 6.84}
+{'loss': 0.0623, 'learning_rate': 2.7000000000000002e-05, 'epoch': 7.11}
+{'loss': 0.062, 'learning_rate': 2.8000000000000003e-05, 'epoch': 7.37}
+{'loss': 0.1121, 'learning_rate': 2.9e-05, 'epoch': 7.63}
+{'loss': 0.2358, 'learning_rate': 3e-05, 'epoch': 7.89}
+{'loss': 0.0489, 'learning_rate': 3.1e-05, 'epoch': 8.16}
+{'loss': 0.093, 'learning_rate': 3.2000000000000005e-05, 'epoch': 8.42}
+{'loss': 0.0346, 'learning_rate': 3.3e-05, 'epoch': 8.68}
+{'loss': 0.0297, 'learning_rate': 3.4000000000000007e-05, 'epoch': 8.95}
+{'loss': 0.05, 'learning_rate': 3.5e-05, 'epoch': 9.21}
+{'loss': 0.0154, 'learning_rate': 3.6e-05, 'epoch': 9.47}
+{'loss': 0.0639, 'learning_rate': 3.7e-05, 'epoch': 9.74}
+{'loss': 0.0746, 'learning_rate': 3.8e-05, 'epoch': 10.0}
+{'loss': 0.0316, 'learning_rate': 3.9000000000000006e-05, 'epoch': 10.26}
+{'loss': 0.0077, 'learning_rate': 4e-05, 'epoch': 10.53}
+{'loss': 0.0742, 'learning_rate': 4.1e-05, 'epoch': 10.79}
+{'loss': 0.0746, 'learning_rate': 4.2e-05, 'epoch': 11.05}
+{'loss': 0.0303, 'learning_rate': 4.3e-05, 'epoch': 11.32}
+{'loss': 0.0562, 'learning_rate': 4.4000000000000006e-05, 'epoch': 11.58}
+{'loss': 0.0616, 'learning_rate': 4.5e-05, 'epoch': 11.84}
+{'train_runtime': 42471.014, 'train_samples_per_second': 0.335, 'train_steps_per_second': 0.011, 'train_loss': 0.2440425947006269, 'epoch': 12.0}
+time to inference: 9.5367431640625e-07 seconds
+Confusion Matrix
+Normalized confusion matrix
+Classification Report
+              precision    recall  f1-score   support
+
+     ChatGPT       0.84      0.98      0.91       148
+       Human       0.98      0.82      0.89       147
+
+    accuracy                           0.90       295
+   macro avg       0.91      0.90      0.90       295
+weighted avg       0.91      0.90      0.90       295
+

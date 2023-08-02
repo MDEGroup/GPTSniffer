@@ -1,0 +1,47 @@
+
+
+import java.util.*;
+
+
+public class Exercise08_25 {
+    static String markovMatrix = "It is a Markov matrix";
+    static String notMarkovMatrix = "It is not a Markov matrix";
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        double[][] test = new double[3][3];
+
+        System.out.println("Enter a 3-by-3 matrix row by row: ");
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                test[i][j] = in.nextDouble();
+            }
+        }
+        if (isMarkovMatrix(test)) {
+            System.out.println(markovMatrix);
+        } else {
+            System.out.println(notMarkovMatrix);
+        }
+        in.close();
+
+
+    }
+
+    public static boolean isMarkovMatrix(double[][] m) {
+        for (int i = 0; i < 3; i++) {
+            double sum = 0;
+            for (int j = 0; j < 3; j++) {
+                if (m[j][i] < 0) {
+                    return false;
+                }
+                sum += m[j][i];
+            }
+            if (sum != 1) {
+                return false;
+            }
+        }
+        return true;
+
+    }
+}

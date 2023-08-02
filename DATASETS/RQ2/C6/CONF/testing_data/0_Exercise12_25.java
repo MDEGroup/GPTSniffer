@@ -1,0 +1,1 @@
+import java.io.IOException;import java.net.URL;import java.util.Scanner;public class SalaryAnalyzer {  public static void main(String[] args) throws IOException {    URL url = new URL("http:

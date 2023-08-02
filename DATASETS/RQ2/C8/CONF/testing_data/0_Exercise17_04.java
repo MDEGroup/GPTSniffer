@@ -1,0 +1,1 @@
+package ch_17.exercise17_04;import java.io.*;public class Exercise17_04 { public static void main(String[] args) throws IOException {  if (args.length != 2) {   System.out.println("Usage: java Exercise17_04 inputFile outputFile");   System.exit(1);  }  

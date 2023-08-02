@@ -1,0 +1,1 @@
+import java.util.Scanner;public class InvestmentValue {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);        System.out.print("The amount invested: ");    double investmentAmount = input.nextDouble();        System.out.print("Annual interest rate: ");    double annualInterestRate = input.nextDouble();        

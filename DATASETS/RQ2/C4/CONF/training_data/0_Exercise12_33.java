@@ -1,0 +1,1 @@
+import java.net.*;import java.util.*;public class WebCrawler { public static void main(String[] args) {  Scanner input = new Scanner(System.in);  System.out.print("Enter a URL: ");  String url = input.nextLine();  crawler(url); 

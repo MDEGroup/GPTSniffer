@@ -1,0 +1,1 @@
+import java.io.*;public class PackageInserter {  public static void main(String[] args) {    String srcRootDirectory = "/path/to/srcRootDirectory/"; 

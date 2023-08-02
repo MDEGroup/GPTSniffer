@@ -1,0 +1,1 @@
+import java.math.BigInteger;public class DivisibleByFiveOrSix {  public static void main(String[] args) {    BigInteger maxLong = BigInteger.valueOf(Long.MAX_VALUE);    BigInteger number = maxLong.add(BigInteger.ONE); 
