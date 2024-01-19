@@ -1,0 +1,1 @@
+import java.util.*;public class MatrixExplorer {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);    System.out.print("Enter the size for the matrix: ");    int n = input.nextInt();    

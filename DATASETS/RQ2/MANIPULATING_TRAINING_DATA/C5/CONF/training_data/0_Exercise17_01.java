@@ -1,0 +1,1 @@
+import java.io.*;import java.util.Random;public class Exercise17_01 {  public static void main(String[] args) {    try {      

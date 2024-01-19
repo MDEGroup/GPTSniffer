@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Gratuity {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);    System.out.print("Enter the sub-total: $");    double subtotal = input.nextDouble();    System.out.print("Enter the gratuity rate (as a percentage): ");    double gratuityRate = input.nextDouble();        

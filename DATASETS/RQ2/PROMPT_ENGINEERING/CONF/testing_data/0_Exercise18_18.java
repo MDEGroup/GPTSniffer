@@ -1,0 +1,1 @@
+primaryStage.setScene(scene);

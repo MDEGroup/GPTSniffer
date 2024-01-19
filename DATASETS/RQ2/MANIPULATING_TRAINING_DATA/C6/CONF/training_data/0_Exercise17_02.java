@@ -1,0 +1,1 @@
+import java.io.*;public class Exercise17_02 {  public static void main(String[] args) throws IOException {    File file = new File("Exercise17_02.dat");    

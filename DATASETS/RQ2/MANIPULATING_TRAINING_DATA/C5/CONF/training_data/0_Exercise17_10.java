@@ -1,0 +1,1 @@
+import java.io.*;public class Exercise17_10 {  public static void main(String[] args) throws IOException {    

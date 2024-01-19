@@ -1,0 +1,1 @@
+public class RemoveLargestBallApp extends Application {

@@ -1,0 +1,1 @@
+import java.util.Scanner;public class ConnectFour {  public static void main(String[] args) {    Scanner scanner = new Scanner(System.in);    char[][] board = new char[6][7]; 

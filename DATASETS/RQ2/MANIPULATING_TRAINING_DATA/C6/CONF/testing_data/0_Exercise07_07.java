@@ -1,0 +1,1 @@
+import java.util.Random;public class CountSingleDigits {  public static void main(String[] args) {    int[] counts = new int[10]; 

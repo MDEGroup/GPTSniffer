@@ -1,0 +1,1 @@
+import javax.swing.*;import java.awt.*;public class GradeBarChart extends JFrame {  public GradeBarChart() {    setTitle("Grade Bar Chart");    setSize(400, 400);    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    setVisible(true);  }  public void paint(Graphics g) {    super.paint(g);    

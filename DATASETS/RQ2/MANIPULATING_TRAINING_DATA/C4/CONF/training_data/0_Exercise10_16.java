@@ -1,0 +1,1 @@
+import java.math.BigDecimal;public class Main {  public static void main(String[] args) {    int count = 0;    BigDecimal number = new BigDecimal("10000000000000000000000000000000000000000000000000"); 
