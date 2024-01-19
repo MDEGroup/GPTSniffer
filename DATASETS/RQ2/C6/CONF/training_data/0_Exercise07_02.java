@@ -1,1 +1,0 @@
-import java.util.Scanner;public class ReverseNumbers {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);    int[] numbers = new int[10];    System.out.println("Enter ten integers:");    

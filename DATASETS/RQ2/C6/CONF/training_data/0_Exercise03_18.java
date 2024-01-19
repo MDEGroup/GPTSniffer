@@ -1,1 +1,0 @@
-import java.util.Scanner;public class ShippingCost {  public static void main(String[] args) {    

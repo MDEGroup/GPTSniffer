@@ -1,1 +1,0 @@
-class Rational {  private int numerator;  private int denominator;  public Rational(int numerator, int denominator) {    if (denominator == 0) {      throw new IllegalArgumentException("Denominator cannot be zero.");    }    

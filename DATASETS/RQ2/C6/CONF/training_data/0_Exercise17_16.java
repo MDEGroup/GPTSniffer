@@ -1,1 +1,0 @@
-import java.io.File;import java.io.FileNotFoundException;import java.util.HashMap;import java.util.Map;import java.util.Scanner;public class Exercise17_16 {  public static void main(String[] args) {    

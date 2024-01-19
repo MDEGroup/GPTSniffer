@@ -1,1 +1,0 @@
-import java.util.Scanner;public class Savings {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);    System.out.print("Enter the monthly saving amount: $");    double monthlySaving = input.nextDouble();        

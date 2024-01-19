@@ -1,1 +1,0 @@
-public class RandomCharacters { public static void main(String[] args) {  final int NUMBER_OF_UPPERCASE_LETTERS = 100;  final int NUMBER_OF_DIGITS = 100;  final int CHARACTERS_PER_LINE = 10;    

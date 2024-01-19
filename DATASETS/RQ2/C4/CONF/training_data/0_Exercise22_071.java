@@ -1,1 +1,0 @@
-import java.util.Arrays;public class ClosestPair {    public static Pair getClosestPair(double[][] points) {    Arrays.sort(points, (a, b) -> Double.compare(a[0], b[0])); 
