@@ -1,0 +1,1 @@
+import java.util.Scanner;public class NumberCounter {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);    int[] counts = new int[101]; 

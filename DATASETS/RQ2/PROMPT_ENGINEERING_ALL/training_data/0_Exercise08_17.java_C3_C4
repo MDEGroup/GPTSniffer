@@ -1,0 +1,1 @@
+import java.util.*;public class UnsafeBanks {  static double[][] borrowers;  public static void main(String[] args) {    Scanner scanner = new Scanner(System.in);    int n = scanner.nextInt();    double limit = scanner.nextDouble();    borrowers = new double[n][n];    

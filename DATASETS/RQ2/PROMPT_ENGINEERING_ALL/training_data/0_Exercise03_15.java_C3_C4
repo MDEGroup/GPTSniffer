@@ -1,0 +1,1 @@
+import java.util.Random;import java.util.Scanner;public class Lottery {  public static void main(String[] args) {    

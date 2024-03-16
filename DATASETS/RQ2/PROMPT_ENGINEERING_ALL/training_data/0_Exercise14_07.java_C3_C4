@@ -1,0 +1,1 @@
+import javafx.application.Application;import javafx.geometry.Pos;import javafx.scene.Scene;import javafx.scene.control.TextField;import javafx.scene.layout.GridPane;import javafx.stage.Stage;public class RandomMatrix extends Application {  @Override  public void start(Stage primaryStage) {    

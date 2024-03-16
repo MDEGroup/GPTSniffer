@@ -1,0 +1,1 @@
+import java.util.*;public class Occurrences {  public static void main(String[] args) {    

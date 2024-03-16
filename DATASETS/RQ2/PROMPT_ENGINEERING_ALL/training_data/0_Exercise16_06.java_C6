@@ -1,0 +1,1 @@
+import javax.swing.JFrame;import javax.swing.JPanel;import javax.swing.JTextField;public class TextFieldExample extends JFrame {  public TextFieldExample() {    JPanel panel = new JPanel();    JTextField textField = new JTextField(20); 

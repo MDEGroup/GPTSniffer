@@ -1,0 +1,1 @@
+import java.util.Scanner;public class PentagonalCoordinates {  public static void main(String[] args) {    Scanner input = new Scanner(System.in);    System.out.print("Enter the radius of the bounding circle: ");    double radius = input.nextDouble();    double angle = Math.toRadians(18); 
